@@ -107,45 +107,45 @@ namespace Ultimate_Tic_Tac_Toe
         #endregion
         private void CheckWin()
         {// WHY just WHY?
-            if (button1.Text == button2.Text && button2.Text == button3.Text)
+            if (button1.Text == button2.Text && button2.Text == button3.Text && button1.Text!="")
             {
-                OnGridWon(EventArgs.Empty);
                 Winner = button1.Text;
+                OnGridWon(EventArgs.Empty);                
             }
-            if (button4.Text == button5.Text && button5.Text == button6.Text)
+            if (button4.Text == button5.Text && button5.Text == button6.Text && button4.Text!="")
             {
-                OnGridWon(EventArgs.Empty);
                 Winner = button4.Text;
-            }
-            if (button7.Text == button8.Text && button8.Text == button9.Text) 
-            {
                 OnGridWon(EventArgs.Empty);
+            }
+            if (button7.Text == button8.Text && button8.Text == button9.Text && button7.Text!="") 
+            {
                 Winner = button7.Text;
-            }
-            if (button1.Text == button4.Text && button4.Text == button7.Text) 
-            {
                 OnGridWon(EventArgs.Empty);
+            }
+            if (button1.Text == button4.Text && button4.Text == button7.Text && button1.Text!="") 
+            {
                 Winner = button1.Text;
-            }
-            if (button2.Text == button5.Text && button5.Text == button8.Text) 
-            {
                 OnGridWon(EventArgs.Empty);
+            }
+            if (button2.Text == button5.Text && button5.Text == button8.Text && button2.Text!="") 
+            {
                 Winner = button2.Text;
-            }
-            if (button3.Text == button6.Text && button6.Text == button9.Text) 
-            {
                 OnGridWon(EventArgs.Empty);
+            }
+            if (button3.Text == button6.Text && button6.Text == button9.Text && button3.Text!="") 
+            {
                 Winner = button3.Text;
-            }
-            if (button1.Text == button5.Text && button5.Text == button9.Text) 
-            {
                 OnGridWon(EventArgs.Empty);
+            }
+            if (button1.Text == button5.Text && button5.Text == button9.Text && button1.Text!="") 
+            {
                 Winner = button1.Text;
-            }
-            if (button3.Text == button5.Text && button5.Text == button7.Text) 
-            {
                 OnGridWon(EventArgs.Empty);
+            }
+            if (button3.Text == button5.Text && button5.Text == button7.Text && button3.Text!="") 
+            {
                 Winner = button3.Text;
+                OnGridWon(EventArgs.Empty);
             }
         }
     }

@@ -102,7 +102,8 @@
             this.LBoard1.Size = new System.Drawing.Size(152, 114);
             this.LBoard1.TabIndex = 1;
             this.LBoard1.Winner = null;
-            this.LBoard1.Slotclicked += new System.EventHandler(this.LBoard1_Slotclicked);
+            this.LBoard1.Slotclicked += new System.EventHandler(this.LBoard_Slotclicked);
+            this.LBoard1.GridWon += new System.EventHandler(this.LBoard_Won);
             // 
             // LBoard2
             // 
@@ -113,7 +114,8 @@
             this.LBoard2.Size = new System.Drawing.Size(152, 114);
             this.LBoard2.TabIndex = 2;
             this.LBoard2.Winner = null;
-            this.LBoard2.Slotclicked += new System.EventHandler(this.LBoard2_Slotclicked);
+            this.LBoard2.Slotclicked += new System.EventHandler(this.LBoard_Slotclicked);
+            this.LBoard2.GridWon += new System.EventHandler(this.LBoard_Won);
             // 
             // LBoard3
             // 
@@ -124,7 +126,8 @@
             this.LBoard3.Size = new System.Drawing.Size(152, 114);
             this.LBoard3.TabIndex = 3;
             this.LBoard3.Winner = null;
-            this.LBoard3.Slotclicked += new System.EventHandler(this.LBoard3_Slotclicked);
+            this.LBoard3.Slotclicked += new System.EventHandler(this.LBoard_Slotclicked);
+            this.LBoard3.GridWon += new System.EventHandler(this.LBoard_Won);
             // 
             // LBoard4
             // 
@@ -135,7 +138,8 @@
             this.LBoard4.Size = new System.Drawing.Size(152, 114);
             this.LBoard4.TabIndex = 4;
             this.LBoard4.Winner = null;
-            this.LBoard4.Slotclicked += new System.EventHandler(this.LBoard4_Slotclicked);
+            this.LBoard4.Slotclicked += new System.EventHandler(this.LBoard_Slotclicked);
+            this.LBoard4.GridWon += new System.EventHandler(this.LBoard_Won);
             // 
             // LBoard5
             // 
@@ -146,7 +150,8 @@
             this.LBoard5.Size = new System.Drawing.Size(152, 114);
             this.LBoard5.TabIndex = 5;
             this.LBoard5.Winner = null;
-            this.LBoard5.Slotclicked += new System.EventHandler(this.LBoard5_Slotclicked);
+            this.LBoard5.Slotclicked += new System.EventHandler(this.LBoard_Slotclicked);
+            this.LBoard5.GridWon += new System.EventHandler(this.LBoard_Won);
             // 
             // LBoard6
             // 
@@ -157,7 +162,8 @@
             this.LBoard6.Size = new System.Drawing.Size(152, 115);
             this.LBoard6.TabIndex = 6;
             this.LBoard6.Winner = null;
-            this.LBoard6.Slotclicked += new System.EventHandler(this.LBoard6_Slotclicked);
+            this.LBoard6.Slotclicked += new System.EventHandler(this.LBoard_Slotclicked);
+            this.LBoard6.GridWon += new System.EventHandler(this.LBoard_Won);
             // 
             // LBoard7
             // 
@@ -168,7 +174,8 @@
             this.LBoard7.Size = new System.Drawing.Size(152, 117);
             this.LBoard7.TabIndex = 7;
             this.LBoard7.Winner = null;
-            this.LBoard7.Slotclicked += new System.EventHandler(this.LBoard7_Slotclicked);
+            this.LBoard7.Slotclicked += new System.EventHandler(this.LBoard_Slotclicked);
+            this.LBoard7.GridWon += new System.EventHandler(this.LBoard_Won);
             // 
             // LBoard8
             // 
@@ -179,7 +186,8 @@
             this.LBoard8.Size = new System.Drawing.Size(152, 117);
             this.LBoard8.TabIndex = 8;
             this.LBoard8.Winner = null;
-            this.LBoard8.Slotclicked += new System.EventHandler(this.LBoard8_Slotclicked);
+            this.LBoard8.Slotclicked += new System.EventHandler(this.LBoard_Slotclicked);
+            this.LBoard8.GridWon += new System.EventHandler(this.LBoard_Won);
             // 
             // LBoard9
             // 
@@ -191,7 +199,8 @@
             this.LBoard9.Size = new System.Drawing.Size(152, 117);
             this.LBoard9.TabIndex = 9;
             this.LBoard9.Winner = null;
-            this.LBoard9.Slotclicked += new System.EventHandler(this.LBoard9_Slotclicked);
+            this.LBoard9.Slotclicked += new System.EventHandler(this.LBoard_Slotclicked);
+            this.LBoard9.GridWon += new System.EventHandler(this.LBoard_Won);
             // 
             // UTTTForm
             // 

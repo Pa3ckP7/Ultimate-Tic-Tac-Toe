@@ -17,41 +17,18 @@ namespace Ultimate_Tic_Tac_Toe
             InitializeComponent();
             PlayerDisplayLabel.Text = "x";
         }
-        private void LBoard1_Slotclicked(object sender, EventArgs e)
+        private void LBoard_Slotclicked(object sender, EventArgs e)
         {
-
+            var button = sender as Button;
+            button.Text = PlayerDisplayLabel.Text;
+            if (PlayerDisplayLabel.Text == "x") PlayerDisplayLabel.Text = "o";
+              else PlayerDisplayLabel.Text = "x";
         }
-        private void LBoard2_Slotclicked(object sender, EventArgs e)
+        private void LBoard_Won(object sender, EventArgs e) 
         {
-
-        }
-        private void LBoard3_Slotclicked(object sender, EventArgs e)
-        {
-
-        }
-        private void LBoard4_Slotclicked(object sender, EventArgs e)
-        {
-
-        }
-        private void LBoard5_Slotclicked(object sender, EventArgs e)
-        {
-
-        }
-        private void LBoard6_Slotclicked(object sender, EventArgs e)
-        {
-
-        }
-        private void LBoard7_Slotclicked(object sender, EventArgs e)
-        {
-
-        }
-        private void LBoard8_Slotclicked(object sender, EventArgs e)
-        {
-
-        }
-        private void LBoard9_Slotclicked(object sender, EventArgs e)
-        {
-
+            var lboard = sender as LocalGrid;
+            if (lboard.Winner == "x") lboard.BackColor = Color.Aqua;
+            else lboard.BackColor = Color.IndianRed;
         }
     }
 }
