@@ -96,10 +96,11 @@
             // LBoard1
             // 
             this.LBoard1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LBoard1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LBoard1.Location = new System.Drawing.Point(5, 6);
             this.LBoard1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.LBoard1.Name = "LBoard1";
-            this.LBoard1.Size = new System.Drawing.Size(152, 114);
+            this.LBoard1.Size = new System.Drawing.Size(152, 115);
             this.LBoard1.TabIndex = 1;
             this.LBoard1.Winner = null;
             this.LBoard1.Slotclicked += new System.EventHandler(this.LBoard_Slotclicked);
@@ -108,10 +109,11 @@
             // LBoard2
             // 
             this.LBoard2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LBoard2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LBoard2.Location = new System.Drawing.Point(166, 6);
             this.LBoard2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.LBoard2.Name = "LBoard2";
-            this.LBoard2.Size = new System.Drawing.Size(152, 114);
+            this.LBoard2.Size = new System.Drawing.Size(152, 115);
             this.LBoard2.TabIndex = 2;
             this.LBoard2.Winner = null;
             this.LBoard2.Slotclicked += new System.EventHandler(this.LBoard_Slotclicked);
@@ -120,10 +122,11 @@
             // LBoard3
             // 
             this.LBoard3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LBoard3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LBoard3.Location = new System.Drawing.Point(327, 6);
             this.LBoard3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.LBoard3.Name = "LBoard3";
-            this.LBoard3.Size = new System.Drawing.Size(152, 114);
+            this.LBoard3.Size = new System.Drawing.Size(152, 115);
             this.LBoard3.TabIndex = 3;
             this.LBoard3.Winner = null;
             this.LBoard3.Slotclicked += new System.EventHandler(this.LBoard_Slotclicked);
@@ -132,10 +135,11 @@
             // LBoard4
             // 
             this.LBoard4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LBoard4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LBoard4.Location = new System.Drawing.Point(5, 132);
             this.LBoard4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.LBoard4.Name = "LBoard4";
-            this.LBoard4.Size = new System.Drawing.Size(152, 114);
+            this.LBoard4.Size = new System.Drawing.Size(152, 115);
             this.LBoard4.TabIndex = 4;
             this.LBoard4.Winner = null;
             this.LBoard4.Slotclicked += new System.EventHandler(this.LBoard_Slotclicked);
@@ -144,10 +148,11 @@
             // LBoard5
             // 
             this.LBoard5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LBoard5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LBoard5.Location = new System.Drawing.Point(166, 132);
             this.LBoard5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.LBoard5.Name = "LBoard5";
-            this.LBoard5.Size = new System.Drawing.Size(152, 114);
+            this.LBoard5.Size = new System.Drawing.Size(152, 115);
             this.LBoard5.TabIndex = 5;
             this.LBoard5.Winner = null;
             this.LBoard5.Slotclicked += new System.EventHandler(this.LBoard_Slotclicked);
@@ -156,6 +161,7 @@
             // LBoard6
             // 
             this.LBoard6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LBoard6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LBoard6.Location = new System.Drawing.Point(327, 132);
             this.LBoard6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.LBoard6.Name = "LBoard6";
@@ -168,6 +174,7 @@
             // LBoard7
             // 
             this.LBoard7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LBoard7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LBoard7.Location = new System.Drawing.Point(5, 258);
             this.LBoard7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.LBoard7.Name = "LBoard7";
@@ -180,6 +187,7 @@
             // LBoard8
             // 
             this.LBoard8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LBoard8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LBoard8.Location = new System.Drawing.Point(166, 258);
             this.LBoard8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.LBoard8.Name = "LBoard8";
@@ -211,6 +219,7 @@
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MinimumSize = new System.Drawing.Size(500, 520);
             this.Name = "UTTTForm";
             this.Text = "UTTTForm";
             this.panel1.ResumeLayout(false);
