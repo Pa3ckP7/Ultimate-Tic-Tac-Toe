@@ -16,7 +16,7 @@ namespace Ultimate_Tic_Tac_Toe
         {
             InitializeComponent();
         }
-        public bool BoardWon { get; internal set; }
+        public bool BoardWon { get; internal set; } = false;
         public string Winner { get; set; }
         #region Events
         public event EventHandler Slotclicked;
@@ -147,6 +147,32 @@ namespace Ultimate_Tic_Tac_Toe
                 Winner = button3.Text;
                 OnGridWon(EventArgs.Empty);
             }
+        }
+        public void Disable() 
+        {
+            button1.Enabled = false;
+            button2.Enabled = false;
+            button3.Enabled = false;
+            button4.Enabled = false;
+            button5.Enabled = false;
+            button6.Enabled = false;
+            button7.Enabled = false;
+            button8.Enabled = false;
+            button9.Enabled = false;
+            if (BackColor != Color.IndianRed && BackColor != Color.Aqua) BackColor = Color.Gray;
+        }
+        public void Enable()
+        {
+            button1.Enabled = true;
+            button2.Enabled = true;
+            button3.Enabled = true;
+            button4.Enabled = true;
+            button5.Enabled = true;
+            button6.Enabled = true;
+            button7.Enabled = true;
+            button8.Enabled = true;
+            button9.Enabled = true;
+            if (BackColor!= Color.IndianRed && BackColor!= Color.Aqua && BoardWon==false) BackColor = SystemColors.Control;
         }
     }
 }
